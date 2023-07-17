@@ -2,7 +2,7 @@ package easy;
 
 public class ProdOfDigits {
     public static void main(String[] args) {
-        System.out.println(prodOfDigits(34));
+        System.out.println(prodOfDigits(12034));
     }
     public static int prodOfDigits(int n) {
         // Base condition
@@ -11,5 +11,4 @@ public class ProdOfDigits {
         }
         return (n%10) * prodOfDigits(n/10);
     }
-
 }
