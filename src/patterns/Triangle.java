@@ -29,7 +29,7 @@ public class Triangle {
         }
     }
     public static void main(String[] args) {
-        triangle(5, 0);
-        triangle2(5, 0);
+        triangle(2, 0);
+//        triangle2(5, 0);
     }
 }
