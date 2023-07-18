@@ -93,14 +93,14 @@ public class Search {
     }
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 3, 3, 4, 5, 6};
-        System.out.println(searchIndex(arr, 3, 0)); // returns the index of target
-        System.out.println(searchIndexFromBack(arr, 3, 5));
-
-        System.out.println(searchIsPresent(arr, 3, 0)); // returns whether target is present or not
-        System.out.println(searchIsPresentFromBack(arr, 3, 5));
-
-        searchAllIndex(arr, 3, 0);
-        System.out.println(list);
+//        System.out.println(searchIndex(arr, 3, 0)); // returns the index of target
+//        System.out.println(searchIndexFromBack(arr, 3, 5));
+//
+//        System.out.println(searchIsPresent(arr, 3, 0)); // returns whether target is present or not
+//        System.out.println(searchIsPresentFromBack(arr, 3, 5));
+//
+//        searchAllIndex(arr, 3, 0);
+//        System.out.println(list);
         ArrayList<Integer> list = new ArrayList<>();
 //        System.out.println(searchAllIndex(arr, 3, 0, list));
 
