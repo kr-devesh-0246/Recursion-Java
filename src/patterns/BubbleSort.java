@@ -3,20 +3,17 @@ package patterns;
 import java.util.Arrays;
 
 public class BubbleSort {
-    public static void bubble(int[] arr, int r, int c) {
-        // base-case
+    private static void bubble(int[] arr, int r, int c) {
         if (r == 0) {
             return;
         }
-        if (r > c) {
-
+        if (c < r) {
             if (arr[c] > arr[c+1]) {
-                //swap
+                // swap them
                 int temp = arr[c];
                 arr[c] = arr[c+1];
                 arr[c+1] = temp;
             }
-
             bubble(arr, r, c+1);
         } else {
             bubble(arr, r-1, 0);
