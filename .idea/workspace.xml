@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd47b743-b023-41ba-ad56-5066cd770a63" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sorting/non_recursive/CyclicSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/arrays/RBS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/RBS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/non_recursive/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/non_recursive/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/non_recursive/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/non_recursive/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/non_recursive/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/non_recursive/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/non_recursive/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/non_recursive/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/recursive/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/recursive/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/recursive/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/recursive/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/recursive/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/recursive/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/recursive/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/recursive/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,22 +43,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/devesh/workspace/Java/Java_Kunal_Kushwaha/recursion",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/devesh/workspace/Java/Java_Kunal_Kushwaha/recursion/src/patterns&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Triangle">
-    <configuration name="CountZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.CountZeroes" />
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/patterns" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CyclicSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.non_recursive.BubbleSort" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="sorting.non_recursive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountingSteps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.CountingSteps" />
+    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.non_recursive.CyclicSort" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.*" />
+          <option name="PATTERN" value="sorting.non_recursive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.Search" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.non_recursive.InsertionSort" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="sorting.non_recursive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.Sorted" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.non_recursive.SelectionSort" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="sorting.non_recursive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,8 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.Triangle" />
+    <configuration name="patterns.SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.SelectionSort" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
@@ -112,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Triangle" />
-        <item itemvalue="Application.Search" />
-        <item itemvalue="Application.Sorted" />
-        <item itemvalue="Application.CountingSteps" />
-        <item itemvalue="Application.CountZeroes" />
+        <item itemvalue="Application.CyclicSort" />
+        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.patterns.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +162,10 @@
           <line>2</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="10" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

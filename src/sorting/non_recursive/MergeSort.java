@@ -1,2 +1,4 @@
-package sorting.non_recursive;public class MergeSort {
+package sorting.non_recursive;
+
+public class MergeSort {
 }
