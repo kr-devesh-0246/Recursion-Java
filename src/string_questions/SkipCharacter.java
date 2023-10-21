@@ -14,7 +14,6 @@ public class SkipCharacter {
     private static void skipChar(String processed, String unprocessed) {
         if (unprocessed.isEmpty()) {
             System.out.println(processed);
-            return ;
         }
 
         char ch = unprocessed.charAt(0);
