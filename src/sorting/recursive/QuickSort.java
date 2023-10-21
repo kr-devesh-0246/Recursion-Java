@@ -21,7 +21,7 @@ public class QuickSort {
                 e--;
             }
 
-            // the reason why if its already sorted it will not wap. Hence it is better than Merge sort.
+            // the reason why if its already sorted it will not swap. Hence, it is better than Merge sort.
             if (s <= e) {
                 int temp = arr[s];
                 arr[s] = arr[e];
