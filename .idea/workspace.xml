@@ -5,22 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd47b743-b023-41ba-ad56-5066cd770a63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sorting/non_recursive/CyclicSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string_questions/RemoveCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string_questions/SkipString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/RBS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/RBS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/non_recursive/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/non_recursive/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/non_recursive/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/non_recursive/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/non_recursive/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/non_recursive/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/non_recursive/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/non_recursive/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/recursive/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/recursive/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/recursive/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/recursive/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/recursive/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/recursive/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting/recursive/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/recursive/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/CountZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/CountZeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/intro/BS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/intro/BS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/patterns/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/patterns/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/non_recursive/CyclicSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/non_recursive/CyclicSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,6 +36,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2Rk9nPBwbI6TVDcAg6NkwJP1KMQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,8 +55,12 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/devesh/workspace/Java/Java_Kunal_Kushwaha/recursion/src/patterns&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/devesh/workspace/Java/Java_Kunal_Kushwaha/recursion&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -57,13 +68,13 @@
       <recent name="$PROJECT_DIR$/src/patterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CyclicSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.non_recursive.BubbleSort" />
+  <component name="RunManager" selected="Application.SkipString">
+    <configuration name="MergeSortGrind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.recursive.MergeSortGrind" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.non_recursive.*" />
+          <option name="PATTERN" value="sorting.recursive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclicSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.non_recursive.CyclicSort" />
+    <configuration name="PracticeMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.recursive.PracticeMerge" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.non_recursive.*" />
+          <option name="PATTERN" value="sorting.recursive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.non_recursive.InsertionSort" />
+    <configuration name="QuickSortPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorting.recursive.QuickSortPractice" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.non_recursive.*" />
+          <option name="PATTERN" value="sorting.recursive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.non_recursive.SelectionSort" />
+    <configuration name="RemoveCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string_questions.RemoveCharacter" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sorting.non_recursive.*" />
+          <option name="PATTERN" value="string_questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="patterns.SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.SelectionSort" />
+    <configuration name="SkipString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string_questions.SkipString" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.*" />
+          <option name="PATTERN" value="string_questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CyclicSort" />
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.patterns.SelectionSort" />
+        <item itemvalue="Application.SkipString" />
+        <item itemvalue="Application.RemoveCharacter" />
+        <item itemvalue="Application.QuickSortPractice" />
+        <item itemvalue="Application.PracticeMerge" />
+        <item itemvalue="Application.MergeSortGrind" />
       </list>
     </recent_temporary>
   </component>
@@ -143,6 +154,17 @@
       <updated>1687783380014</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -168,5 +190,9 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

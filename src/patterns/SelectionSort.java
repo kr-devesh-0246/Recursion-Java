@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class SelectionSort {
     private static void selection(int[] arr, int r, int c, int max) {
         // max is the index of max element
-        if (r == 0) {
+        if (r == 1) {
             return;
         }
         if (c < r) {

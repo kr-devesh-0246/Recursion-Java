@@ -5,7 +5,14 @@ public class Triangle {
         triangle1(5,0);
         triangle2(5,0);
     }
-
+    /*
+    pattern 1
+    *****
+    ****
+    ***
+    **
+    *
+     */
     private static void triangle1(int r, int c) {
         if (r == 0){
             return;
@@ -18,7 +25,15 @@ public class Triangle {
             triangle1(r-1, 0);
         }
     }
-
+    /*
+    pattern 1
+    *
+    **
+    ***
+    ****
+    *****
+    
+    */
     private static void triangle2(int r, int c) {
         if (r == 0) {
             return;

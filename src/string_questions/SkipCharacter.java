@@ -1,6 +1,6 @@
 package string_questions;
 
-public class RemoveCharacter {
+public class SkipCharacter {
     public static void main(String args[]) {
         String s = "baccad";
         System.out.println("Using void returning func");

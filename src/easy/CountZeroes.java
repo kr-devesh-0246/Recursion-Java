@@ -20,6 +20,6 @@ public class CountZeroes {
         return helper(n/10, c);
     }
     public static void main(String[] args) {
-        System.out.println(count(38746876));
+        System.out.println(count(38000004));
     }
 }
