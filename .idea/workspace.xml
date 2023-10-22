@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cd47b743-b023-41ba-ad56-5066cd770a63" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/practice/IsSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/practice/IsSorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/practice/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/practice/LinearSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -189,7 +187,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/arrays/practice/IsSorted.java</url>
           <line>9</line>
-          <properties class="arrays.IsSorted" method="isSorted">
+          <properties class="arrays.practice.IsSorted" method="isSorted">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
