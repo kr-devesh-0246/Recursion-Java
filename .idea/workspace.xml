@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd47b743-b023-41ba-ad56-5066cd770a63" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assignment/FirstUpperCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment/FirstUpperCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/recursive/MergeSortGrind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting/recursive/MergeSortGrind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sorting/recursive/PracticeMerge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string_questions/SkipCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string_questions/SkipCharacter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +32,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -56,15 +64,20 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="/tmp/qodana_output/qodana.sarif.json" reportGuid="71b2129d-ac4a-4dff-a942-c588232c3a4c" reportId="recursion/qodana/2023-10-22" />
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/patterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinearSearch">
+  <component name="RunManager" selected="Application.SkipCharacter">
     <configuration name="IsSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.practice.IsSorted" />
       <module name="recursion" />
@@ -91,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SkipString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string_questions.SkipString" />
+    <configuration name="SkipCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string_questions.SkipCharacter" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
@@ -132,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SkipCharacter" />
         <item itemvalue="Application.LinearSearch" />
         <item itemvalue="Application.IsSorted" />
         <item itemvalue="Application.SubSequence" />
         <item itemvalue="Application.skipNotRequiredString" />
-        <item itemvalue="Application.SkipString" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +197,10 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="10" />
         </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="18" />
+        </breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/arrays/practice/IsSorted.java</url>
           <line>9</line>
@@ -192,6 +209,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/string_questions/SkipCharacter.java</url>
+          <line>13</line>
+          <properties class="string_questions.SkipCharacter" method="skipChar">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -3,12 +3,15 @@ package sorting.recursive;
 import java.util.Arrays;
 
 public class MergeSortGrind {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int[] arr = new int[] {8,3,4,12,5,6};
         mergeSortInPlace(arr, 0, arr.length);
         System.out.println(Arrays.toString(arr));
-//        int[] sorted_arr = mergeSortOutOfPlace(arr);
-//        System.out.println(Arrays.toString(sorted_arr));
+
+        /*
+        int[] sorted_arr = mergeSortOutOfPlace(arr);
+        System.out.println(Arrays.toString(sorted_arr));
+        */
     }
 
     private static void mergeSortInPlace(int[] arr, int s, int e) {
@@ -21,7 +24,7 @@ public class MergeSortGrind {
         mergeSortInPlace(arr, s, m);
         mergeSortInPlace(arr, m, e);
 
-        // did not return anything as it is manipulating the orginial array at last
+        // did not return anything as it is manipulating the original array at last
         mergeInPlace(arr, s, m, e);
     }
 
@@ -57,9 +60,7 @@ public class MergeSortGrind {
             k++;
         }
 
-        for (int l = 0; l < mix.length; l++) {
-            arr[s + l] = mix[l];
-        }
+        System.arraycopy(mix, 0, arr, s, mix.length);
 
     }
 

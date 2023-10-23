@@ -14,9 +14,13 @@ public class SkipCharacter {
     private static void skipChar(String processed, String unprocessed) {
         if (unprocessed.isEmpty()) {
             System.out.println(processed);
+            return ;
         }
 
         char ch = unprocessed.charAt(0);
+        if (unprocessed.length() == 1)) {
+
+        }
 
         if (ch == 'a') {
             skipChar(processed, unprocessed.substring(1));
