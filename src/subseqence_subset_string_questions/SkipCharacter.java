@@ -7,7 +7,7 @@ public class SkipCharacter {
         skipChar("", s);
 
         System.out.println("Using String returning func");
-        String p = skipChar("baccad");
+        String p = skipChar1("baccad");
         System.out.println(p);
     }
 
@@ -23,6 +23,13 @@ public class SkipCharacter {
         } else {
             skipChar(processed + ch, unprocessed.substring(1));
         }
+    }
+
+    private static String skipChar1(String str) {
+        if (str.isEmpty()) {
+            return "";
+        }
+        return str.charAt(0) == 'a' ? skipChar1(str.substring(1)) : str.charAt(0) + skipChar1(str.substring(1));
     }
 
     // Throwing exception [StringIndexOutOfBoundException]
