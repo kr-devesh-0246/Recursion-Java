@@ -76,6 +76,7 @@ public class Search {
     }
     */
 
+    // It's not good to create a new object at each call. Previous method was more space optimised
     private static ArrayList<Integer> searchAllIndex2(int[] arr, int target, int index) {
         ArrayList<Integer> list = new ArrayList<>();
         if (index == arr.length) {
