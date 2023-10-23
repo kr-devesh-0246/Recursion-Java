@@ -1,6 +1,6 @@
 package subseqence_subset_string_questions;
 
-public class skipNotRequiredString {
+public class SkipStringNotRequired {
     public static void main(String[] args) {
         System.out.printf(skipAppNotApple("abcdeappfghapple"));
     }
@@ -17,3 +17,4 @@ public class skipNotRequiredString {
         }
     }
 }
+

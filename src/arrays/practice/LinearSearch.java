@@ -108,6 +108,7 @@ public class LinearSearch {
             return list;
         }
 
+
         if (nums[index] == target) {
             list.add(index);
         }

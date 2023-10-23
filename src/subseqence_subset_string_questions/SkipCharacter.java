@@ -25,6 +25,7 @@ public class SkipCharacter {
         }
     }
 
+    // Throwing exception [StringIndexOutOfBoundException]
     private static String skipChar(String unprocessed) {
         if (unprocessed.isEmpty()) {
             return "";
