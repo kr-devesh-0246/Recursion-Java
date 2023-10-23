@@ -1,4 +1,4 @@
-package string_questions;
+package subseqence_subset_string_questions;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package string_questions;
+package subseqence_subset_string_questions;
 
 public class SkipString {
     public static void main(String[] args) {

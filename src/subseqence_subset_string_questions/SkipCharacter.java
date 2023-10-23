@@ -1,7 +1,7 @@
-package string_questions;
+package subseqence_subset_string_questions;
 
 public class SkipCharacter {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         String s = "baccad";
         System.out.println("Using void returning func");
         skipChar("", s);
@@ -18,10 +18,6 @@ public class SkipCharacter {
         }
 
         char ch = unprocessed.charAt(0);
-        if (unprocessed.length() == 1)) {
-
-        }
-
         if (ch == 'a') {
             skipChar(processed, unprocessed.substring(1));
         } else {
