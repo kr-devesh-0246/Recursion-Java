@@ -99,4 +99,22 @@ public class LinearSearch {
         }
         return findIndices1(nums, target, index + 1, list);
     }
+
+    private static ArrayList<Integer> findIndices2(int[] nums, int target, int index) {
+        ArrayList<Integer> list = new ArrayList<>();
+
+        // base-case
+        if (index == nums.length) {
+            return list;
+        }
+
+        if (nums[index] == target) {
+            list.add(index);
+        }
+
+        ArrayList<Integer> ansFromBelowCalls = findIndices2(nums, target, index+1);
+        list.addAll(ansFromBelowCalls);
+
+        return list;
+    }
 }
