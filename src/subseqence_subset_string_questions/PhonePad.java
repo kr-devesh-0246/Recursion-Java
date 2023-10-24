@@ -12,7 +12,7 @@ public class PhonePad {
 //        pad("", "12");
 
         // Arraylist returning method
-        System.out.println(pad2("", "12"));
+//        System.out.println(pad2("", "12"));
 
         System.out.println(padCount("", "12"));
     }
