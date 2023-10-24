@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd47b743-b023-41ba-ad56-5066cd770a63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/subseqence_subset_string_questions/practice/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/subseqence_subset_string_questions/PhonePad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/subseqence_subset_string_questions/Subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/subseqence_subset_string_questions/Subsets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,7 @@
       <recent name="$PROJECT_DIR$/src/patterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Permutation">
+  <component name="RunManager" selected="Application.PhonePad">
     <configuration name="Ascii" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="subseqence_subset_string_questions.Ascii" />
       <module name="recursion" />
@@ -104,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SkipCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="subseqence_subset_string_questions.SkipCharacter" />
+    <configuration name="PhonePad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="subseqence_subset_string_questions.PhonePad" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
@@ -145,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhonePad" />
         <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.Subsets" />
         <item itemvalue="Application.SubSeq" />
         <item itemvalue="Application.Ascii" />
-        <item itemvalue="Application.SkipCharacter" />
       </list>
     </recent_temporary>
   </component>
