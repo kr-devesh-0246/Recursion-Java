@@ -1,3 +1,7 @@
+/*
+This question was asked in Google
+*/
+
 package subseqence_subset_string_questions;
 
 import java.util.ArrayList;
