@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd47b743-b023-41ba-ad56-5066cd770a63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/backtracking/basics_using_subsets/MazeWithObstacle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/backtrack/Intro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/simulations_using_subsets/AllPaths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backtracking/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/basics_using_subsets/Maze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maze_problems/Maze.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backtracking/simulations_using_subsets/MazeWithObstacle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/simulations_using_subsets/MazeWithObstacle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,33 @@
       <recent name="$PROJECT_DIR$/src/patterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MazeWithObstacle">
+  <component name="RunManager" selected="Application.Intro">
+    <configuration name="AllPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.simulations_using_subsets.AllPaths" />
+      <module name="recursion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtracking.simulations_using_subsets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Intro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.backtrack.Intro" />
+      <module name="recursion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtracking.backtrack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Maze" />
       <module name="recursion" />
@@ -105,32 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="subseqence_subset_string_questions.practice.Permutation" />
-      <module name="recursion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="subseqence_subset_string_questions.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PhonePad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="subseqence_subset_string_questions.PhonePad" />
-      <module name="recursion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="subseqence_subset_string_questions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.Reverse" />
       <module name="recursion" />
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Intro" />
+        <item itemvalue="Application.AllPaths" />
         <item itemvalue="Application.MazeWithObstacle" />
         <item itemvalue="Application.Maze" />
         <item itemvalue="Application.Reverse" />
-        <item itemvalue="Application.PhonePad" />
-        <item itemvalue="Application.Permutation" />
       </list>
     </recent_temporary>
   </component>
