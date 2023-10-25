@@ -1,2 +1,4 @@
-package maze_problems;public class Maze {
+package maze_problems;
+
+public class Maze {
 }

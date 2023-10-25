@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd47b743-b023-41ba-ad56-5066cd770a63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/subseqence_subset_string_questions/PhonePad.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backtracking/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/maze_problems/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/maze_problems/Maze.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +78,13 @@
       <recent name="$PROJECT_DIR$/src/patterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PhonePad">
-    <configuration name="Ascii" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="subseqence_subset_string_questions.Ascii" />
+  <component name="RunManager" selected="Application.Maze">
+    <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.Maze" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="subseqence_subset_string_questions.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="subseqence_subset_string_questions.practice.SubSeq" />
+    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Reverse" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="subseqence_subset_string_questions.practice.*" />
+          <option name="PATTERN" value="easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Maze" />
+        <item itemvalue="Application.Reverse" />
         <item itemvalue="Application.PhonePad" />
         <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.Subsets" />
-        <item itemvalue="Application.SubSeq" />
-        <item itemvalue="Application.Ascii" />
       </list>
     </recent_temporary>
   </component>
