@@ -1,4 +1,4 @@
-package backtracking;
+package backtracking.simulations_using_subsets;
 
 import java.util.ArrayList;
 
