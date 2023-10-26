@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd47b743-b023-41ba-ad56-5066cd770a63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/backtracking/backtrack/AllPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/subseqence_subset_string_questions/practice/Subsets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +76,7 @@
       <recent name="$PROJECT_DIR$/src/patterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.backtracking.backtrack.AllPaths">
+  <component name="RunManager" selected="Application.Subsets">
     <configuration name="AllPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="backtracking.simulations_using_subsets.AllPaths" />
       <module name="recursion" />
@@ -103,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Maze" />
+    <configuration name="MazeWithObstacle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.simulations_using_subsets.MazeWithObstacle" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
@@ -116,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MazeWithObstacle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.simulations_using_subsets.MazeWithObstacle" />
+    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="subseqence_subset_string_questions.practice.Subsets" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="subseqence_subset_string_questions.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Subsets" />
         <item itemvalue="Application.backtracking.backtrack.AllPaths" />
         <item itemvalue="Application.Intro" />
         <item itemvalue="Application.AllPaths" />
         <item itemvalue="Application.MazeWithObstacle" />
-        <item itemvalue="Application.Maze" />
       </list>
     </recent_temporary>
   </component>
