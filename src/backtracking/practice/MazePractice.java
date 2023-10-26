@@ -10,7 +10,7 @@ public class MazePractice {
 //        System.out.println(countPaths(3, 3));
 //        System.out.println(countPathsKK(3, 3));
 //        printPaths("", 3, 3);
-        System.out.println(printPaths2("", 3, 3));
+//        System.out.println(printPaths2("", 3, 3));
     }
 
     public static int countPaths(int r, int c) {
@@ -48,7 +48,7 @@ public class MazePractice {
         return left + right;
     }
 
-    // Learn why StackOverflow is occuring
+    // Learn why StackOverflow is occurring
     /*public static void printPaths(String p, int r, int c) {
         if (r == 1 && c == 1) {
             System.out.println(p);
