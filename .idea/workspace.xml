@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd47b743-b023-41ba-ad56-5066cd770a63" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/backtracking/practice/MazeWithFourDir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/practice/PathWithObstacles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/backtracking/practice/MazePractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/practice/MazePractice.java" afterDir="false" />
     </list>
@@ -76,13 +78,13 @@
       <recent name="$PROJECT_DIR$/src/patterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MazePractice">
-    <configuration name="Intro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.backtrack.Intro" />
+  <component name="RunManager" selected="Application.PathWithObstacles">
+    <configuration name="MazePractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.practice.MazePractice" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="backtracking.backtrack.*" />
+          <option name="PATTERN" value="backtracking.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MazePractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.practice.MazePractice" />
+    <configuration name="PathWithObstacles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.practice.PathWithObstacles" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
@@ -144,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathWithObstacles" />
         <item itemvalue="Application.MazePractice" />
         <item itemvalue="Application.Permutation" />
         <item itemvalue="Application.Subsets" />
         <item itemvalue="Application.backtracking.backtrack.AllPaths" />
-        <item itemvalue="Application.Intro" />
       </list>
     </recent_temporary>
   </component>

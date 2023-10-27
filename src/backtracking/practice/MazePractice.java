@@ -9,8 +9,9 @@ public class MazePractice {
     public static void main(String[] args) {
 //        System.out.println(countPaths(3, 3));
 //        System.out.println(countPathsKK(3, 3));
-//        printPaths("", 3, 3);
+        printPaths("", 3, 3);
 //        System.out.println(printPaths2("", 3, 3));
+//        System.out.println(printPathsRetDiag("", 3, 3));
     }
 
     public static int countPaths(int r, int c) {
@@ -105,6 +106,28 @@ public class MazePractice {
         }
         if (c > 1) {
             outer.addAll(printPaths2(p + 'R', r, c-1));
+        }
+
+        return outer;
+    }
+
+    public static ArrayList<String> printPathsRetDiag(String p, int r, int c) {
+        ArrayList<String> outer = new ArrayList<>();
+        if (r == 1 && c == 1) {
+            ArrayList<String> inner = new ArrayList<>();
+            inner.add(p);
+            return inner;
+        }
+
+        // For diagonal movement
+        if (r > 1 && c > 1) {
+            outer.addAll(printPathsRetDiag(p + 'D', r-1, c-1));
+        }
+        if (r > 1) {
+            outer.addAll(printPathsRetDiag(p + 'H', r-1, c));
+        }
+        if (c > 1) {
+            outer.addAll(printPathsRetDiag(p + 'V', r, c-1));
         }
 
         return outer;
