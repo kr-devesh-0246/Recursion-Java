@@ -19,7 +19,7 @@ public class IntroBacktracking {
         };
 //        allPaths("", board, 0, 0);
         // Steps must start with one as 0 will be overlapped by 0 itself
-        printMatrixPaths("", board, 0, 0, path, 1);
+        printPathMatrix("", board, 0, 0, path, 1);
     }
 
     // function call in main will be with (r,c) => (0,0)
@@ -55,7 +55,7 @@ public class IntroBacktracking {
         maze[r][c] = true; // Run with and without this line and note it in notes
     }
 
-    public static void printMatrixPaths(String p, boolean[][] maze, int r, int c, int[][] path, int steps) {
+    public static void printPathMatrix(String p, boolean[][] maze, int r, int c, int[][] path, int steps) {
         if (r == maze.length - 1 && c == maze[0].length - 1) {
             path[r][c] = steps;
             for (int[] a:  path) {
@@ -71,22 +71,20 @@ public class IntroBacktracking {
             return;
         }
 
-        // To avoid stack-overflow error. mark the cells as false on landing
-        // this alone would not be sufficient. it doesn't mark back the cell to be true.
         maze[r][c] = false;
         path[r][c] = steps;
 
         if (r < maze.length - 1) {
-            printMatrixPaths(p + 'D', maze, r + 1, c, path, steps + 1);
+            printPathMatrix(p + 'D', maze, r + 1, c, path, steps + 1);
         }
         if (c < maze[0].length - 1) {
-            printMatrixPaths(p + 'R', maze, r, c + 1, path, steps + 1);
+            printPathMatrix(p + 'R', maze, r, c + 1, path, steps + 1);
         }
         if (r > 0) {
-            printMatrixPaths(p + 'U', maze, r - 1, c, path, steps + 1);
+            printPathMatrix(p + 'U', maze, r - 1, c, path, steps + 1);
         }
         if (c > 0) {
-            printMatrixPaths(p + 'L', maze, r, c - 1, path, steps + 1);
+            printPathMatrix(p + 'L', maze, r, c - 1, path, steps + 1);
         }
 
         // this line is where the function will be over
