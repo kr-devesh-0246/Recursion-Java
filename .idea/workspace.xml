@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd47b743-b023-41ba-ad56-5066cd770a63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/backtracking/practice/MazeWithFourDir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtracking/practice/PathWithObstacles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/practice/AllPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backtracking/practice/IntroBacktracking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backtracking/practice/MazePractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/practice/MazePractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backtracking/practice/MazeWithFourDir.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backtracking/practice/PathWithObstacles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/practice/PathWithObstacles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +79,33 @@
       <recent name="$PROJECT_DIR$/src/patterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PathWithObstacles">
+  <component name="RunManager" selected="Application.IntroBacktracking">
+    <configuration name="AllPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.practice.AllPaths" />
+      <module name="recursion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtracking.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntroBacktracking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.practice.IntroBacktracking" />
+      <module name="recursion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="backtracking.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MazePractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="backtracking.practice.MazePractice" />
       <module name="recursion" />
@@ -118,39 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="subseqence_subset_string_questions.practice.Subsets" />
-      <module name="recursion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="subseqence_subset_string_questions.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="backtracking.backtrack.AllPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.backtrack.AllPaths" />
-      <module name="recursion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backtracking.backtrack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntroBacktracking" />
         <item itemvalue="Application.PathWithObstacles" />
+        <item itemvalue="Application.AllPaths" />
         <item itemvalue="Application.MazePractice" />
         <item itemvalue="Application.Permutation" />
-        <item itemvalue="Application.Subsets" />
-        <item itemvalue="Application.backtracking.backtrack.AllPaths" />
       </list>
     </recent_temporary>
   </component>
