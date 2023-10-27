@@ -18,7 +18,8 @@ public class IntroBacktracking {
                 {0, 0, 0}
         };
 //        allPaths("", board, 0, 0);
-        printMatrixPaths("", board, 0, 0, path, 0);
+        // Steps must start with one as 0 will be overlapped by 0 itself
+        printMatrixPaths("", board, 0, 0, path, 1);
     }
 
     // function call in main will be with (r,c) => (0,0)
@@ -56,13 +57,15 @@ public class IntroBacktracking {
 
     public static void printMatrixPaths(String p, boolean[][] maze, int r, int c, int[][] path, int steps) {
         if (r == maze.length - 1 && c == maze[0].length - 1) {
-            displayMatrix(path);
+            path[r][c] = steps;
+            for (int[] a:  path) {
+                System.out.println(Arrays.toString(a));
+            }
             System.out.println(p);
             System.out.println();
+
             return;
         }
-
-        path[r][c] = steps;
 
         if (!maze[r][c]) {
             return;
@@ -71,6 +74,7 @@ public class IntroBacktracking {
         // To avoid stack-overflow error. mark the cells as false on landing
         // this alone would not be sufficient. it doesn't mark back the cell to be true.
         maze[r][c] = false;
+        path[r][c] = steps;
 
         if (r < maze.length - 1) {
             printMatrixPaths(p + 'D', maze, r + 1, c, path, steps + 1);
@@ -85,18 +89,10 @@ public class IntroBacktracking {
             printMatrixPaths(p + 'L', maze, r, c - 1, path, steps + 1);
         }
 
-        // revert the steps while returning
-        steps = steps - 1;
-
         // this line is where the function will be over
         // so before the function gets removed, also remove the changes that were made by that function
         maze[r][c] = true; // Run with and without this line and note it in notes
+        path[r][c] = 0;
     }
 
-    public static void displayMatrix(int[][] arr) {
-        for (int[] a:  arr) {
-            System.out.println(Arrays.toString(a));
-        }
-        System.out.println();
-    }
 }

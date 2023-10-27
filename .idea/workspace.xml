@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd47b743-b023-41ba-ad56-5066cd770a63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/backtracking/practice/AllPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backtracking/practice/IntroBacktracking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backtracking/practice/MazeWithFourDir.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/backtracking/practice/PathWithObstacles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/practice/PathWithObstacles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backtracking/practice/IntroBacktracking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/practice/IntroBacktracking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
