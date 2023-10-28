@@ -1,4 +1,4 @@
- /*I coded it intuitively but little bit of help from KK. In checking the isValid() and checking out-of-bounds. But there
+ /*I coded it intuitively but a little bit of help from KK. In checking the isValid() and checking out-of-bounds. But there
  * was a correction made to the kunal kushwaha code. I fixed it. */
 package backtracking.backtrack;
 
