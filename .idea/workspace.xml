@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd47b743-b023-41ba-ad56-5066cd770a63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/intro/practice/BinSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/practice/Nto1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <recent name="$PROJECT_DIR$/src/patterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinSearch">
+  <component name="RunManager" selected="Application.Nto1Rev">
     <configuration name="BinSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="intro.practice.BinSearch" />
       <module name="recursion" />
@@ -118,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SudokuSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.backtrack.SudokuSolver" />
+    <configuration name="Nto1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.practice.Nto1" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="backtracking.backtrack.*" />
+          <option name="PATTERN" value="easy.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.kunal.backtracking.SudokuSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kunal.backtracking.SudokuSolver" />
+    <configuration name="Nto1Rev" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.practice.Nto1Rev" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kunal.backtracking.*" />
+          <option name="PATTERN" value="easy.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Nto1Rev" />
+        <item itemvalue="Application.Nto1" />
         <item itemvalue="Application.BinSearch" />
         <item itemvalue="Application.Fibo" />
         <item itemvalue="Application.Intuition" />
-        <item itemvalue="Application.com.kunal.backtracking.SudokuSolver" />
-        <item itemvalue="Application.SudokuSolver" />
       </list>
     </recent_temporary>
   </component>
