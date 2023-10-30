@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd47b743-b023-41ba-ad56-5066cd770a63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy/practice/ReverseNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/easy/practice/ProdOfDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/practice/ProdOfDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/easy/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/easy/Palindrome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <recent name="$PROJECT_DIR$/src/patterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseNum">
+  <component name="RunManager" selected="Application.Palindrome">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.practice.Factorial" />
       <module name="recursion" />
@@ -93,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Nto1Rev" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.practice.Nto1Rev" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.Palindrome" />
       <module name="recursion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="easy.practice.*" />
+          <option name="PATTERN" value="easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.ReverseNum" />
         <item itemvalue="Application.ProdOfDigits" />
         <item itemvalue="Application.SumOfDigits" />
         <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.Nto1Rev" />
       </list>
     </recent_temporary>
   </component>
