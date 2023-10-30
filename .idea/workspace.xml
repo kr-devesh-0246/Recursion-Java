@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd47b743-b023-41ba-ad56-5066cd770a63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/intro/practice/Fibo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intro/practice/BinSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +78,20 @@
       <recent name="$PROJECT_DIR$/src/patterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fibo">
+  <component name="RunManager" selected="Application.BinSearch">
+    <configuration name="BinSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="intro.practice.BinSearch" />
+      <module name="recursion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="intro.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Fibo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="intro.practice.Fibo" />
       <module name="recursion" />
@@ -98,19 +111,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="intro.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NKnights" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.backtrack.NKnights" />
-      <module name="recursion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backtracking.backtrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinSearch" />
         <item itemvalue="Application.Fibo" />
         <item itemvalue="Application.Intuition" />
         <item itemvalue="Application.com.kunal.backtracking.SudokuSolver" />
         <item itemvalue="Application.SudokuSolver" />
-        <item itemvalue="Application.NKnights" />
       </list>
     </recent_temporary>
   </component>
