@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd47b743-b023-41ba-ad56-5066cd770a63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/easy/practice/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/easy/practice/CountingZeroes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,20 @@
       <recent name="$PROJECT_DIR$/src/patterns" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.easy.practice.Palindrome">
+  <component name="RunManager" selected="Application.CountingZeroes">
+    <configuration name="CountingZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="easy.practice.CountingZeroes" />
+      <module name="recursion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="easy.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.Palindrome" />
       <module name="recursion" />
@@ -118,19 +130,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="easy.practice.SumOfDigits" />
-      <module name="recursion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="easy.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="easy.practice.Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="easy.practice.Palindrome" />
       <module name="recursion" />
@@ -146,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountingZeroes" />
         <item itemvalue="Application.easy.practice.Palindrome" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.ReverseNum" />
         <item itemvalue="Application.ProdOfDigits" />
-        <item itemvalue="Application.SumOfDigits" />
       </list>
     </recent_temporary>
   </component>
