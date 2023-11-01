@@ -1,4 +1,4 @@
-package com.kunal.backtracking;
+package backtracking.backtrack;
 
 public class SudokuSolver {
     public static void main(String[] args) {
@@ -27,25 +27,27 @@ public class SudokuSolver {
         int row = -1;
         int col = -1;
 
-        boolean emptyLeft = true;
+        boolean emptyCellsLeft = false;  // indicates a cell (r,c) is empty
 
         // this is how we are replacing the r,c from arguments
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
+                // board[i][j] is zero means it is empty cell. So we need to process it.
+                // we extracted the r, c without argument
                 if (board[i][j] == 0) {
                     row = i;
                     col = j;
-                    emptyLeft = false;
+                    emptyCellsLeft = true;
                     break;
                 }
             }
             // if you found some empty element in row, then break
-            if (emptyLeft == false) {
+            if (emptyCellsLeft) {
                 break;
             }
         }
 
-        if (emptyLeft == true) {
+        if (!emptyCellsLeft) {
             return true;
             // Sudoku is solved
         }
@@ -67,13 +69,12 @@ public class SudokuSolver {
     }
 
     private static void display(int[][] board) {
+        System.out.println("                    Sudoku Solver");
         for(int[] row : board) {
             System.out.println("______________________________________________________");
             System.out.print("| ");
             for(int num : row) {
                 System.out.print(num + "  |  ");
-//                System.out.print("______________________________________________________");
-
             }
             System.out.println();
         }
@@ -103,6 +104,7 @@ public class SudokuSolver {
         int rowStart = row - row % sqrt;
         int colStart = col - col % sqrt;
 
+        // check if there is duplicate in the same 3 * 3 sub-matrix
         for (int r = rowStart; r < rowStart + sqrt; r++) {
             for (int c = colStart; c < colStart + sqrt; c++) {
                 if (board[r][c] == num) {

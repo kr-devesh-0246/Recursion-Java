@@ -1,4 +1,4 @@
-package arrays.practice;
+package arrays.practice1;
 
 public class IsSorted {
     public static void main(String args[]) {
